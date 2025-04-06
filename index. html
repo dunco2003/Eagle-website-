@@ -1,0 +1,542 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle Contractors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+  
+</head>
+<body>
+    <header class="header">
+      
+        <nav>
+            <ul
+
+                <li><a href="#home"><i class="fa fa-home"></i>Home </a></li>
+                <li><a href="#about"> <i class="fa fa-info-circle"></i> About</a></li>
+                <li><a href="#services"><i class="fa fa-cogs"></i>Services</a></li>
+                <li><a href="#projects"><i class="fa fa-briefcase"></i>Projects</a></li>
+                <li><a href="#testimonials"><i class="fa fa-comments"></i>Testimonials</a></li>
+                <li><a href="#contact"><i class="fa fa-phone"></i>Contact</a></li>
+                <li>
+               <div class="account-container">
+              <button class="account-btn"><i class="fa fa-user"></i><!-- Trigger buttons for login and register -->
+<button id="showLoginBtn">Login</button>
+<button id="showRegisterBtn">Register</button>
+<i class="fa fa-caret-down"></i></button>
+
+             </div> </li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+
+<section id="home" class="home-section">
+  <div class="overlay"></div>
+  <div class="home-content">
+    <h1 class="fade-in">Delivering Excellence in Every Structure</h1>
+    <p class="fade-in">Crafting Structures That Last Generations..</p>
+    <a href="#services" class="cta-button">Explore Our Services</a>
+  </div>
+</section>
+<section id="about" class="about">
+    <div class="about-container">
+        <!-- Image Section -->
+        <div class="about-image">
+            <img src="/spcktest/about.png" alt="About Eagle Contractors">
+          
+               <div class="stats">
+                <div class="stat-item">
+                    <h3>0+</h3> <!-- Animated Number -->
+                    <p>Years of Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3>0+</h3> <!-- Animated Number -->
+                    <p>Successful Projects</p>
+                </div>
+                <div class="stat-item">
+                    <h3>0+</h3> <!-- Animated Number -->
+                    <p>Satisfied Clients</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Content Section -->
+        <div class="about-content">
+            <h2>About <span class="highlight">Eagle Contractors</span></h2>
+            <p>At Eagle Contractors, we are committed to delivering excellence in construction, renovation, and design. With over a decade of industry experience, we take pride in transforming ideas into reality. Whether it's commercial buildings, residential homes, or infrastructure projects, we ensure the highest standards in every project.</p>
+
+            <div class="about-features">
+                <div class="feature">
+                    <img src="/spcktest/qualityassurance.jpg" alt="Quality Assurance">
+                    <h3>Quality Assurance</h3>
+                    <p>We guarantee top-tier materials and craftsmanship in all our projects.</p>
+                </div>
+                <div class="feature">
+                    <img src="/spcktest/safetyteam.jpg" alt="Safety First">
+                    <h3>Safety First</h3>
+                    <p>We prioritize safety to ensure a secure environment for our clients and workers.</p>
+                </div>
+                <div class="feature">
+                    <img src="/spcktest/about.jpg" alt="Innovation">
+                    <h3>Innovative Solutions</h3>
+                    <p>Using the latest technologies, we deliver modern and efficient structures.</p>
+                </div>
+            </div>
+
+            <a href="#contact" class="cta-btn">Get a Free Consultation</a>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-container">
+        <!-- Service 1 -->
+        <div class="service-card">
+            <div class="service-icon">
+                <img src="/spcktest/construction.jpg" alt="Construction" />
+            </div>
+            <h3>Construction</h3>
+            <p>We provide high-quality residential and commercial construction services tailored to meet your specific needs.</p>
+            <a href="#contact" class="cta-btn">Request a Quote</a>
+        </div>
+        
+        <!-- Service 2 -->
+        <div class="service-card">
+            <div class="service-icon">
+                <img src="/spcktest/design.jpg" alt="Design" />
+            </div>
+            <h3>Design</h3>
+            <p>Our creative design team works with you to bring your visions to life with innovative and practical designs.</p>
+            <a href="#contact" class="cta-btn">Request a Quote</a>
+        </div>
+        
+        <!-- Service 3 -->
+        <div class="service-card">
+            <div class="service-icon">
+                <img src="/spcktest/renovation.jpg" alt="Renovation" />
+            </div>
+            <h3>Renovation</h3>
+            <p>We specialize in home and office renovations to enhance your living and working spaces with modern touches.</p>
+            <a href="#contact" class="cta-btn">Request a Quote</a>
+        </div>
+        
+        <!-- Service 4 -->
+        <div class="service-card">
+            <div class="service-icon">
+                <img src="/spcktest/projectmanage.jpg" alt="Project Management" />
+            </div>
+            <h3>Project Management</h3>
+            <p>Our expert project managers ensure your project runs smoothly, within budget, and on time.</p>
+            <a href="#contact" class="cta-btn">Request a Quote</a>
+        </div>
+    </div>
+</section>
+
+  <section id="projects" class="projects-section">
+    <h2>Our Projects</h2><div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="commercial">commercial</button>
+    <button class="filter-btn" data-filter="residential">residential</button>
+    <button class="filter-btn" data-filter="roads">Roads</button>
+    <button class="filter-btn" data-filter="luxury villa">villa</button>
+    <button class="filter-btn" data-filter="Estate">Estates</button>
+</div>
+
+<div class="projects-container">
+    <div class="project-card" data-category="commercial">
+        <img src="modern4.jpg" alt="Project 1">
+        <h3>Modern Building Construction</h3>
+        <p>We successfully completed a modern commercial building in Nairobi.</p>
+        <div class="card-footer">
+            <a href="#" class="details-btn" onclick="openPopup('commercial-popup')">View Details <i class="fa fa-caret-down"></i> </a>
+            <span class="badge featured">Featured</span>
+        </div>
+    </div>
+    <div class="project-card" data-category="residential">
+        <img src="home1.jpg" alt="Project 2">
+        <h3>Luxury Home Renovation</h3>
+        <p>Renovation of a luxurious home with high-end interior finishes.</p>
+        <div class="card-footer">
+            <a href="#" class="details-btn" onclick="openPopup('apartments-popup')">View Details <i class="fa fa-caret-down"></i> </a>
+            <span class="badge new">New</span>
+        </div>
+    </div>
+    <div class="project-card" data-category="luxury villa">
+        <img src="villa.png" alt="Project 3">
+        <h3>Luxury Villa Construction</h3>
+  <p>Modern villa design with elegant interiors and a private pool.</p>
+        <div class="card-footer">
+            <a href="#" class="details-btn" onclick="openPopup('projects-popup')">View Details</a>
+            <span class="badge new">New</span>
+            
+        </div>
+    </div>
+    <div class="project-card" data-category="Estate">
+        <img src="estate.jpg" alt="Project 4">
+            <h3>Our Latest Estate Projects</h3>
+        <p>Explore our prestigious real estate projects offering premium living spaces and facilities.</p>
+        <div class="card-footer">
+            <a href="#" class="details-btn" onclick="openPopup('estate-popup')">View Details</a>
+            <span class="badge new">New</span>
+        </div>
+    </div>
+    <div class="project-card" data-category="roads">
+        <img src="Road.jpg" alt="Project 5">
+        <h3>Road Construction</h3>
+        <p>Completed a 10km road project improving infrastructure.</p>
+        <div class="card-footer">
+            <a href="#" class="details-btn" onclick="openPopup('road-popup')">View Details <i class="fa fa-caret-down"></i> </a>
+            <span class="badge completed">Completed</span>
+            
+        </div>
+    </div>
+</div>
+
+<button class="load-more">Load More <span class="arrow">↓</span></button>
+
+</section>
+
+<section id="testimonials" class="testimonials-section">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <img src="image.jpg" alt="client 1">
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <p>"Eagle Contractors delivered our project on time with the highest quality standards. Highly recommended!"</p>
+        <strong>- Duncan kaimenyi</strong>
+        
+    </div>
+    <div class="testimonial">
+      <img src="image2.png" alt="client 2">
+      <div class="rating">⭐⭐⭐⭐⭐</div>
+        <p>"Exceptional work! Professional and reliable service from start to finish."</p>
+        <strong>- Jane Smith</strong>
+        
+    </div>
+    
+        <div class="testimonial">
+            <img src="image3.png" alt="Client 3">
+            <div class="rating">⭐⭐⭐⭐☆</div>
+            <p>"Eagle Contractors did an amazing job! Highly recommended."</p>
+            <h4>- Sarah penny</h4>
+        </div>
+        <div class="testimonial">
+            <img src="image4.png" alt="Client 4">
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <p>"Very professional team, great work quality!"</p>
+            <h4>- Johnson murithi</h4>
+        </div>
+        <div class="testimonial">
+            <img src="image5.png" alt="Client 5">
+            <div class="rating">⭐⭐⭐⭐☆</div>
+            <p>"A fantastic experience from start to finish!"</p>
+            <h4>- Michael Smith</h4>
+        </div>
+        <div class="testimonial">
+            <img src="image6.png" alt="Client 6">
+            <div class="rating">⭐⭐⭐⭐</div>
+            <p>"Eagle Contractors exceeded my expectations!"</p>
+            <h4>- Charles Bronson</h4>
+        </div>
+    </div
+</section>
+
+<section id="contact" class="contact-section">
+  
+  <h1 class="companyname">Eagle contractors </h1>
+  <div class="social-icons">
+    <a href="https://www.facebook.com/dunco.kaime.5" target="_blank" class="fab fa-facebook"></a>
+    <a href="https://www.twitter.com" target="_blank" class="fab fa-twitter"></a>
+    <a href="https://vm.tiktok.com/ZMBxYVHmf/" target="_blank" class="fab fa-tiktok"></a>
+    <a href="https://www.linkedin.com/in/duncan-kaimenyi-a621b52a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="fab fa-linkedin"></a>
+</div>
+  <div>
+    <h2>About us</h2>
+   <span>Blogs</span><br>
+   <span>Reviews</span><br>
+   <span>News</span><br>
+  </div>
+    <h2>Contact Us</h2>
+    <p>Email: info@eaglecontractors.com</p>
+    <p>Phone: +254713723639</p>
+    <p>Location: Nairobi, Kenya</p>
+    <div class="newsletter">
+      <h1>Newsletter</h1>
+      <input type="text" placeholder="Enter fullname">
+      <input type="text" placeholder="enter email address">
+      <button type="submit">Subscribe</button>
+    </div>
+    <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15918.27619835402!2d35.847778!3d-1.092778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a7f3e3b1a8f%3A0x2a0d9b3f3e3b1a8f!2sMaasai%20Mara%20University!5e0!3m2!1sen!2ske!4v1610000000000"
+  width="100%"
+  height="400"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</section>
+<div class="line">
+  -
+</div>
+<footer class="footer">
+    <p>&copy; 2025 Eagle Contractors. All rights reserved.</p>
+    <span>Terms & condition.privacy</span>
+</footer>
+
+
+
+<!-- Popups -->
+<div id="estate-popup" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup('estate-popup')">Back</span>
+    <h2>Estate Projects</h2>
+    <div class="popup-images">
+      <img src="estate1.jpg" alt="">
+      <img src="estate 2.jpg" alt="">
+      <img src="estate 3.jpg" alt="">
+      <img src="estate4.jpg" alt="">
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="commercial-popup" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup('commercial-popup')">Back</span>
+    <h2>Commercial Projects</h2>
+    <div class="popup-images">
+      <img src="modern1.jpg" alt="">
+      <img src="modern2.jpg" alt="">
+      <img src="modern3.jpg" alt="">
+      <img src="modern5.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div id="apartments-popup" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup('apartments-popup')">Back</span>
+    <h2>Residential</h2>
+    <div class="popup-images">
+      <img src="home2.jpg" alt="">
+      <img src="home4.jpg" alt="">
+      <img src="home 5.jpg" alt="">
+      <img src="home7.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div id="road-popup" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup('road-popup')">Back</span>
+    <h2>Road construction</h2>
+    <div class="popup-images">
+      <img src="road2.jpg" alt="">
+      <img src="road6.jpg" alt="">
+      <img src="road4.jpg" alt="">
+      <img src="road5.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div id="projects-popup" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup('projects-popup')">Back</span>
+    <h2>Our Projects</h2>
+    <div class="popup-images">
+      <img src="villa1.jpg" alt="">
+      <img src="villa2.jpg" alt="">
+      <img src="villa3.jpg" alt="">
+      <img src="villa.png" alt="">
+    </div>
+  </div>
+</div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Overlay */
+        #loginRegisterOverlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+        }
+
+        /* Popup */
+        .loginRegisterPopup {
+            width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Heading */
+        .popupHeading {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #3498db;
+            font-size: 24px;
+        }
+
+        /* Form Input */
+        .inputField {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Buttons */
+        .submitBtn {
+            width: 100%;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submitBtn:hover {
+            background-color: #2980b9;
+        }
+
+        .toggleBtn {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .toggleBtn a {
+            color: #f39c12;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .toggleBtn a:hover {
+            color: #e67e22;
+        }
+
+        /* Close button */
+        .closeBtn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 40px;
+            color:white;
+            cursor: pointer;
+        }
+
+        .closeBtn:hover {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+
+<!-- Overlay for login/register -->
+<div id="loginRegisterOverlay">
+    <!-- Login Popup -->
+    <div id="loginPopup" class="loginRegisterPopup">
+        <span class="closeBtn" id="closeLoginPopup">&times;</span>
+        <h2 class="popupHeading">Login</h2>
+        <form action="#" method="POST">
+            <input type="email" class="inputField" placeholder="Email" required><br>
+            <input type="password" class="inputField" placeholder="Password" required><br>
+            <button type="submit" class="submitBtn">Login</button>
+        </form>
+        <div class="toggleBtn">Don't have an account? <a href="#" id="switchToRegister">Register here</a></div>
+    </div>
+
+    <!-- Register Popup -->
+    <div id="registerPopup" class="loginRegisterPopup">
+        <span class="closeBtn" id="closeRegisterPopup">&times;</span>
+        <h2 class="popupHeading">Register</h2>
+        <form action="#" method="POST">
+            <input type="text" class="inputField" placeholder="Username" required><br>
+            <input type="email" class="inputField" placeholder="Email" required><br>
+            <input type="password" class="inputField" placeholder="Password" required><br>
+            <button type="submit" class="submitBtn">Register</button>
+        </form>
+        <div class="toggleBtn">Already have an account? <a href="#" id="switchToLogin">Login here</a></div>
+    </div>
+</div>
+
+<script>
+    const showLoginBtn = document.getElementById('showLoginBtn');
+    const showRegisterBtn = document.getElementById('showRegisterBtn');
+    const loginRegisterOverlay = document.getElementById('loginRegisterOverlay');
+    const closeLoginPopup = document.getElementById('closeLoginPopup');
+    const closeRegisterPopup = document.getElementById('closeRegisterPopup');
+    const switchToRegister = document.getElementById('switchToRegister');
+    const switchToLogin = document.getElementById('switchToLogin');
+
+    showLoginBtn.onclick = function () {
+        loginRegisterOverlay.style.display = 'block';
+        document.getElementById('loginPopup').style.display = 'block';
+    };
+
+    showRegisterBtn.onclick = function () {
+        loginRegisterOverlay.style.display = 'block';
+        document.getElementById('registerPopup').style.display = 'block';
+    };
+
+    closeLoginPopup.onclick = function () {
+        loginRegisterOverlay.style.display = 'none';
+        document.getElementById('loginPopup').style.display = 'none';
+    };
+
+    closeRegisterPopup.onclick = function () {
+        loginRegisterOverlay.style.display = 'none';
+        document.getElementById('registerPopup').style.display = 'none';
+    };
+
+    switchToRegister.onclick = function () {
+        document.getElementById('loginPopup').style.display = 'none';
+        document.getElementById('registerPopup').style.display = 'block';
+    };
+
+    switchToLogin.onclick = function () {
+        document.getElementById('registerPopup').style.display = 'none';
+        document.getElementById('loginPopup').style.display = 'block';
+    };
+
+    window.onclick = function (event) {
+        if (event.target == loginRegisterOverlay) {
+            loginRegisterOverlay.style.display = 'none';
+            document.getElementById('loginPopup').style.display = 'none';
+            document.getElementById('registerPopup').style.display = 'none';
+        }
+    };
+</script>
+
+</body>
+</html>
+<!-- Firebase App (required for Firebase services) -->
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script>
+
+<!-- Firebase Authentication (optional, if you need auth) -->
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-a
