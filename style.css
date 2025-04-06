@@ -27,7 +27,7 @@ nav ul li button:hover, nav ul li a:hover { border-bottom: 2px solid white; }
 .home-section {
   width: 100%;
   height: 700px; /* or try 500px if you want shorter */
-  background: url('/spcktest/bg.jpg') no-repeat center center;
+  background: url('bg.png') no-repeat center center;
   background-size: cover; /* cover = fills section; contain = full image shown */
   position: relative;
   display: flex;
