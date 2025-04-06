@@ -532,11 +532,7 @@
         }
     };
 </script>
-
+<script defer src="script.js"></script>
 </body>
 </html>
-<!-- Firebase App (required for Firebase services) -->
-<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script>
 
-<!-- Firebase Authentication (optional, if you need auth) -->
-<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-a
